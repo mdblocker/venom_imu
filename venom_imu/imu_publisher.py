@@ -38,14 +38,14 @@ class MinimalPublisher(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_publisher = MinimalPublisher()
+    venom_publisher = MinimalPublisher()
 
-    rclpy.spin(minimal_publisher)
+    rclpy.spin(venom_publisher)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
-    minimal_publisher.destroy_node()
+    venom_publisher.destroy_node()
     rclpy.shutdown()
 
 
