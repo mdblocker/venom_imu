@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'talker = venom_imu.publisher_member_function:main',
+                'talker = venom_imu.imu_publisher:main',
+                'listener = venom_imu.imu_subscriber:main'
         ],
     },
 )
