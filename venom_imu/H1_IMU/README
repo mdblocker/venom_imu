@@ -1,0 +1,26 @@
+## H1 Venom IMU driver/filter
+
+This is the base code needed to get usable angles from a the BerryIMU_v3
+used by H1. It uses a Complementary filter to provide useable angles. 
+SPI communication is used
+
+All files for IMU (including readme) are slightly modified from:
+http://ozzmaker.com/berryimu
+
+BerryIMUv3(LSM6DSL) is supported byt this code
+
+This script is python 2.7 and 3 compatible
+
+
+
+
+Python2;
+Run using;
+python H1_IMU.py
+
+
+Python3;
+Run using;
+python3 H1_IMU.py
+
+
